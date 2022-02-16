@@ -17,6 +17,7 @@
 .metro {
     font-family: 'CAMetro';
     overflow-x: hidden;
+    padding-left: 185px;
 }
 .container {
     max-width: calc(80.7% + 30px);
@@ -24,14 +25,14 @@
     padding: 0 15px;
 }
 .title {
-    font-size: calc(30px + (42 - 30) * ((100vw - 320px) / (1900 - 320)));
+    font-size: 42px;
     line-height: 55px;
     letter-spacing: 0.01em;
     color: #003D7C;
     text-transform: uppercase;
 }
 .text {
-    font-size: calc(18px + (28 - 18) * ((100vw - 320px) / (1900 - 320)));
+    font-size: 28px;
     line-height: 33px;
     letter-spacing: 0.01em;
     font-weight: 400;
@@ -146,7 +147,7 @@
 @media (min-width: 2350px) {
     .tasks__bg {
         width: 54%;
-        top: -60%;
+        top: -20%;
     }
 }
 
@@ -321,7 +322,7 @@
 }
 @media (min-width: 2350px) {
     .examples__bg1 {
-        top: -30%;
+        top: -27%;
     }
     .examples__img {
         margin-left: 59%;
